@@ -1,0 +1,57 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header{
+    background-color:rgb(245, 43, 7);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 30px;
+
+}
+.logo{
+    height: 100%;
+    background-color: blue;
+}
+
+.lista,
+.lista-principal
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+} 
+.carrito-compras{
+    height: 32px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 1px 8px;
+    margin-right:  1rem;
+    color: rgb(246, 247, 245);
+    cursor: pointer;
+    border: 3px solid;
+
+}
+.lista{
+    gap: 150px;
+}
+.lista-principal  {
+    gap: 30px;
+    
+}
+.lista-principal a{
+    color: aliceblue;
+    font-size: 14px;
+
